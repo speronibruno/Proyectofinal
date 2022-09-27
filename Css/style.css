@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.titulo_club {
+    background-color: black;
+    color: azure;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+body {
+    background-image: linear-gradient(rgb(16, 16, 16, 0.2), rgb(16, 16, 16, 0.2)), url(../Multimedia/escudo2.jpg);
+
+}
+
+
+/*-----nav--------*/
+.milogo {
+    width: 50px;
+    height: 50px;
+
+}
+
+.bg-bru {
+
+    border-radius: 10px;
+
+    width: auto;
+    height: 100px;
+}
+
+.conteiner-bru {
+    margin: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 10px;
+
+}
+
+.navbar {
+    padding: 5px 11px;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+
+.navbar-expand-lg {
+    background-color: white;
+    border-radius: 10px;
+    /*
+    transform: scale(0.8);
+    box-shadow: 0px 0px 10px 3px blue;*/
+}
+
+.estilo-bru {
+    box-shadow: 0px 0px 10px 3px black;
+    border-radius: 10px;
+
+}
+
+.img-carru {
+    border-radius: 10px;
+}
+
+/*---card---*/
+.card-body {
+    margin-top: 10px;
+    background-color: rgb(199, 204, 204);
+
+}
+
+/* article */
+
+
+/* Section */
+.parra {
+    background-color: white;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+
+/* Aside */
+aside {
+    background-color: rgb(158, 152, 152);
+    text-align: center;
+    position: sticky;
+    justify-content: center;
+    padding: 5px;
+    margin-left: 850px;
+    color: azure;
+    width: 250px;
+    height: 500px;
+
+}
+
+/* Footer */
+footer {
+
+    background-color: black;
+    color: azure;
+    width: auto;
+    height: 130px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.8rem;
+
+}
+
+ul {
+
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.items {
+    list-style-type: none;
+
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+/* Texto Historia del club*/
+.mhist-bru {
+    background-color: white;
+    text-align: justify;
+    margin: 15px;
+    padding: 15px;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+/* Tabla */
+table,
+th,
+td {
+    padding: 5px;
+    border: 2px solid rgb(247, 245, 245);
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+/* Formulario */
+.form-bru {
+    background-color: white;
+    padding: 15px;
+}

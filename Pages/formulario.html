@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title>Formulario</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- link ami css -->
+    <link rel="stylesheet" href="../Css/style.css">
+</head>
+
+<body>
+    <h1 class="titulo_club">Club Social Y
+        Deportivo La Emilia </h1>
+
+    <!--Navegador-->
+    <nav class="navbar navbar-expand-lg bg-bru">
+        <div class="container-fluid conteiner-bru">
+            <a class="navbar-brand" href=""> <img class="milogo" src="../Multimedia/escudo con laureles.jpg"
+                    alt="escudo" target="_blank"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./historiadelclub.html" target="_blank">Historia del
+                            Club</a>
+                    </li>
+                    <!--<li class="nav-item">
+                                <a class="nav-link" href="./Pages/deportes.html">Deportes</a>
+                            </li>-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Deportes
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./deportes.html">Fútbol</a></li>
+                            <li><a class="dropdown-item" href="./deportes.html">Patín Artístico</a></li>
+                            <li>
+                            <li><a class="dropdown-item" href="./deportes.html">Basquet</a></li>
+                            <li><a class="dropdown-item" href="./deportes.html">Tawekondo</a></li>
+                            <li>
+                            <li><a class="dropdown-item" href="./deportes.html">Voley</a></li>
+                            <li><a class="dropdown-item" href="./deportes.html">Pelota Paleta</a></li>
+                            <li>
+                            <li><a class="dropdown-item" href="./deportes.html">Tenis</a></li>
+
+                            <li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./formulario.html">Formulario</a>
+                    </li>
+                </ul>
+                <!--  
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Ingrese palabra clave"
+                                aria-label="Search">
+                            <a href="https://www.google.com.ar/">
+                                <button class="btn btn-outline-success" type="submit">Búsqueda</button></a>
+        
+                        </form>-->
+            </div>
+        </div>
+    </nav>
+    <!--Formulario-->
+
+    <form class="row g-3 form-bru mt-3 mb-3">
+        <h3>Formulario de Contacto</h3>
+        <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Apellido y Nombre</font>
+                </font>
+            </label>
+            <input type="text" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Dni</font>
+                </font>
+            </label>
+            <input type="text" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+            <label for="inputAddress" class="form-label">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Email de Contacto</font>
+                </font>
+            </label>
+            <input type="email" class="form-control" id="inputAddress" placeholder="name@example.com">
+        </div>
+        <div class="col-12">
+            <label for="inputAddress2" class="form-label">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Direccion </font>
+                </font>
+            </label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Calle y numero">
+        </div>
+        <div class="col-md-6">
+            <label for="inputCity" class="form-label">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Localidad</font>
+                </font>
+            </label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+
+        <div class="col-md-2">
+            <label for="inputZip" class="form-label">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Partido</font>
+                </font>
+            </label>
+            <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-md-4">
+            <label for="inputState" class="form-label">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Provincia</font>
+                </font>
+            </label>
+            <select id="inputState" class="form-select">
+                <option selected="">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Seleccione...</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Buenos Aires</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Capital Federal</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Catamarca</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Chaco</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Chubut</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Córdoba</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Corrientes</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Entre Ríos</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Formosa</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Jujuy</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">La Pampa</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">La Rioja</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Mendoza</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Misiones</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Neuquen</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Rio Negro</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Salta</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">San Juan</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">San Luis</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Santa Cruz</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Santa Fe</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Santiago del Estero</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Tierra del Fuego</font>
+                    </font>
+                </option>
+                <option>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Tucumán</font>
+                    </font>
+                </option>
+            </select>
+        </div>
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">
+                            Acepto términos y condicicones
+                        </font>
+                    </font>
+                </label>
+            </div>
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Enviar</font>
+                </font>
+            </button>
+        </div>
+    </form>
+    <!--footter-->
+    <footer>
+
+        Seguinos en nuestras redes
+        <ul>
+            <li class="items"><a href="https://www.instagram.com/clublaemilia/" target="_blank"></a><img class="logo"
+                    src="../Logos/instagram.jpg" alt="logo inst"></li>
+            <li class="items"><a href="https://es-la.facebook.com/ClubSocialyDeportivoLaEmilia/"></a><img class="logo"
+                    src="../Logos/facebook.jpg" alt="logo face"></li>
+            <li class="items"><a href="" https://web.whatsapp.com /></a><img class="logo"
+                    src="../Logos/logotipo-Whatsapp.jpg" alt="logo whats"></li>
+        </ul>
+        Sitio Creado por Speroni Bruno --
+        Todos los derechos reservados --
+        Puerto Argentino 146 - CP(2901) - La Emilia - Buenos Aires
+    </footer>
+</body>
+
+</html>
