@@ -1,16 +1,8 @@
-function() {
-    let edad;
-    let sexo = prompt("Introduce masculino o femenino");
-    const masculino = "masculino";
-    const femenino = "femenino";
-    edad = prompt("Introduce tu edad");
-    if (edad >= 18 && sexo === masculino) {
-        alert("Puedes entrar, eres mayor de edad.");
-    } else {
+/* Preguntar la edad */
+let edad;
+edad = parseInt(prompt("Bienvenido a la página oficial del CLub Social y Deportivo La Emilia por favor introduce tu edad"));
+if (edad >= 18) {
+    alert("Puedes ingresar, eres mayor de edad");
+} else { alert("Eres menor de edad, ingresas a la pag. bajo tu responsabilidad") }
 
-        if (edad >= 20 && sexo === femenino) {
-            alert("Puedes entrar, eres mayor de edad.");
-        } else { alert("Eres menor de edad, ingresas a la pag bajo tu responsabilidad") }
 
-    }
-}
