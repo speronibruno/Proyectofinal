@@ -117,6 +117,20 @@ aside {
     color: white;
 }
 
+.btn-desc {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+}
+
+.btn-desc:hover {
+    transform: translateX(10px);
+    transition: all 1000ms;
+    transform: translateY(10px);
+    transition-delay: all 100ms;
+
+}
+
 /* Footer */
 footer {
 
@@ -144,9 +158,17 @@ ul {
 
 
 
+
+}
+
+.icon-fot {
+    color: aliceblue;
+    font-size: 3rem;
+
 }
 
 .logo {
+
     width: 50px;
     height: 50px;
     border-radius: 10px;

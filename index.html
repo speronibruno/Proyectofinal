@@ -16,12 +16,14 @@
 
     <!-- link a mi css -->
     <link rel="stylesheet" href="./Css/style.css">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/7675568d7c.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body class="fondo_img">
     <!-- link js-->
-    <script src="./Javascript/script.js"></script>-->
+    <script src="./Javascript/script.js"></script>
     <!--Navegador-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-bruno ">
         <div class="container-fluid conteiner-bru mb-0">
@@ -75,7 +77,7 @@
         </div>
     </header>
     <main>
-        <h1 class="h2 text-center mt-1 mb-2 titulo_club conteiner-bru" id="#scrollHeader">Club Social Y
+        <h1 class="h2 text-center mt-1 mb-2 titulo_club conteiner-bru">Club Social Y
             Deportivo La Emilia </h1>
 
 
@@ -146,21 +148,20 @@
         <article>
 
             <h4>Nuestra Propuesta</h4>
-            <p> El objeto social es la promoción de uno o varios deportes, o de sus
-                correspondientes
-                modalidades deportivas; el
-                desarrollo y la práctica de los mismos por sus asociados; y, en su caso, la
-                participación en actividades
-                y competiciones
-                deportivas de carácter oficial.<br>
+            <p> El objetivo principal del club es la promoción de uno o varios deportes, el desarrollo y práctica de los
+                mismos
+                por sus asociados para que puedan participar en actividades y competencias deportivas de
+                carácter oficial.<br>
 
-                El club Social y Deportivo La Emilia ofrece muchas disiplinas y entretenimientos para todo la
+                El club Social y Deportivo La Emilia ofrece muchas disciplinas y entretenimientos para toda la
                 familia creados en un ambiente social super cuidado con profesionales a cargo.
                 Contamos con canchas de tennis, futbol, basquet, padel, bochas, tejo, voley playero y pelota
                 paleta.
-                Ademas contamos con un camping con espacio recreativo para los mas chiquitos, un cantina buffet
+                Ademas contamos con un camping con espacio recreativo para los mas chiquitos,un natatorio olímpico y una
+                cantina buffet
                 para
-                que te sientas como en tu casa y los parrileros y quinchos para que tu verano sea inolvidable.
+                que te sientas como en tu casa. Infaltable los parrilleros y quinchos para que tu verano sea
+                inolvidable.
             </p>
         </article>
 
@@ -170,7 +171,7 @@
             <div class="container text-center mt-2 mb-2 conteiner-bru">
                 <div class="col">
                     <div class="row mb-3">
-                        <h4>Momento Inolvidable!!!</h4>
+                        <h4>Momento Histórico!!!</h4>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/nl-eHUi2ZnM"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -195,9 +196,10 @@
 
     <aside class="conteiner-bru">
         <h6>Aquí podras decargar el Estatuto del establecimiento</h6>
-        <a href="./Multimedia/estatuto.pdf" download=".pdf" target="_blank"><button
-                class="btn-bruno bg-danger">Descargar
+        <a href="./Multimedia/estatuto.pdf" download=".pdf" target="_blank"><i
+                class="fa-solid fa-download btn-bruno"></i><button class=" btn-desc">Descargar
                 Estatuto</button></a>
+        <!-- <button class="btn btn-warning" type="submit" onclick="return confEnvio()">Guardar</button>--->
     </aside>
 
     <!--footter-->
@@ -205,19 +207,20 @@
         Seguinos en nuestras redes
         <ul>
             <li class="items">
-                <a href="https://www.instagram.com/clublaemilia/" target="_blank">
-                    <img class="logo" src="./Logos/instagram.jpg" alt="logo inst"></a>
+                <a href="https://www.instagram.com/clublaemilia/" target="_blank" onclick="return sali()">
+                    <i class="fa-brands fa-instagram btn-bruno icon-fot"></i></a>
             </li>
             <li class="items">
-                <a href="https://es-la.facebook.com/ClubSocialyDeportivoLaEmilia/" target="_blank">
-                    <img class="logo" src="./Logos/facebook.jpg" alt="logo face"></a>
+                <a href="https://es-la.facebook.com/ClubSocialyDeportivoLaEmilia/" target="_blank"
+                    onclick="return salf()"><i class="fa-brands fa-facebook btn-bruno icon-fot"></i></a>
             </li>
             <li class="items">
                 <a href="https://api.whatsapp.com/send?phone=3364214209&text=Para mas info sobre el club o cualquier duda que tengas comunicate via Whatsapp"
-                    target="_blank"><button class="btn-bruno"><i class="fa-brands fa-whatsapp"></i><img class="logo"
-                            src="../Logos/logotipo-Whatsapp.jpg" alt="logo whats"></button></a>
+                    target="_blank" onclick="return salw()"><i class="fa-brands fa-whatsapp btn-bruno icon-fot"></i></a>
             </li>
+
         </ul>
+        <!-- Datos de autor y lugar -->
         Sitio Creado por Speroni Bruno --
         Todos los derechos reservados --
         Puerto Argentino 146 - CP(2901) - La Emilia - Buenos Aires
