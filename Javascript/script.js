@@ -4,5 +4,8 @@ edad = parseInt(prompt("Bienvenido a la página oficial del CLub Social y Deport
 if (edad >= 18) {
     alert("Puedes ingresar, eres mayor de edad");
 } else { alert("Eres menor de edad, ingresas a la pag. bajo tu responsabilidad") }
+function redirigir() {
+    confirm("Esta seguro que desea abandonar el sitio");
+}
 
 
