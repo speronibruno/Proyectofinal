@@ -21,55 +21,56 @@
 </head>
 
 <body>
-    <h1 class="titulo_club">Club Social Y
+    <h1 class="titulo_club conteiner-bru">Club Social Y
         Deportivo La Emilia </h1>
-
-    <!--Navegador-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-bruno">
-        <div class="container-fluid conteiner-bru ">
-            <a class="navbar-brand" href="../index.html"><img class="logo-bru"
-                    src="../Multimedia/escudo con laureles.jpg" alt="escudo con laureles"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Pages/historiadelclub.html">Historia del club</a>
-                    </li>
-                    <!--  <li class="nav-item">
+    <header>
+        <!--Navegador-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-bruno">
+            <div class="container-fluid conteiner-bru ">
+                <a class="navbar-brand" href="../index.html"><img class="logo-bru"
+                        src="../Multimedia/escudo con laureles.jpg" alt="escudo con laureles"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Pages/historiadelclub.html">Historia del club</a>
+                        </li>
+                        <!--  <li class="nav-item">
                             <a class="nav-link" href="./Pages/deportes.html">Deportes</a>
                         </li>--->
-                    <li class="nav-item">
-                        <a class="nav-link " href="../Pages/formulario.html">Contacto</a>
-                    </li>
-                </ul>
+                        <li class="nav-item">
+                            <a class="nav-link " href="../Pages/formulario.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <!--Formulario-->
 
     <form class="row g-3 form-bru mt-3 mb-3">
-        <h3>Formulario de Contacto</h3>
+        <h3><b><i>Formulario de Contacto</i> </b></h3>
         <div class="col-md-6">
             <label for="inputEmail4" class="form-label">
                 <font style="vertical-align: inherit;">
                     <font style="vertical-align: inherit;">Apellido y Nombre</font>
                 </font>
             </label>
-            <input type="text" class="form-control" id="inputEmail4">
+            <input type="text" class="form-control" id="inputEmail4" placeholder="Apellido y Nombre">
         </div>
         <div class="col-md-6">
             <label for="inputPassword4" class="form-label">
                 <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">Dni</font>
+                    <font style="vertical-align: inherit;">DNI o Pasaporte</font>
                 </font>
             </label>
-            <input type="text" class="form-control" id="inputPassword4">
+            <input type="text" class="form-control" id="inputPassword4" placeholder="DNI o Pasaporte">
         </div>
         <div class="col-12">
             <label for="inputAddress" class="form-label">
@@ -82,7 +83,7 @@
         <div class="col-12">
             <label for="inputAddress2" class="form-label">
                 <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">Direccion </font>
+                    <font style="vertical-align: inherit;">Dirección </font>
                 </font>
             </label>
             <input type="text" class="form-control" id="inputAddress2" placeholder="Calle y numero">
@@ -93,7 +94,7 @@
                     <font style="vertical-align: inherit;">Localidad</font>
                 </font>
             </label>
-            <input type="text" class="form-control" id="inputCity">
+            <input type="text" class="form-control" id="inputCity" placeholder="Localidad">
         </div>
 
         <div class="col-md-2">
@@ -102,7 +103,7 @@
                     <font style="vertical-align: inherit;">Partido</font>
                 </font>
             </label>
-            <input type="text" class="form-control" id="inputZip">
+            <input type="text" class="form-control" id="inputZip" placeholder="Partido">
         </div>
         <div class="col-md-4">
             <label for="inputState" class="form-label">
@@ -251,7 +252,7 @@
             </div>
         </div>
         <div class="col-12">
-            <button type="submit" class="btn btn-danger">
+            <button type="submit" class="btn btn-bruno">
                 <font style="vertical-align: inherit;">
                     <font style="vertical-align: inherit;">Enviar</font>
                 </font>

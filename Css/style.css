@@ -4,29 +4,22 @@
     box-sizing: border-box;
 }
 
-
-
-.conteiner-bru {
+.conteiner-bru,
+h4,
+p {
     margin: 15px auto;
     width: 95%;
     max-width: 1200px;
     text-align: center;
-
+    border-radius: 2rem;
 }
 
-/*
-body {
-    background-image: linear-gradient(rgb(16, 16, 16, 0.3), rgb(16, 16, 16, 0.3)), url(../Multimedia/Cine-Teatrop\ .jpg);
-
-}*/
 body {
     background-image: url(../Multimedia/Cine-Teatrop\ .jpg);
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-
-
 }
 
 .titulo_club {
@@ -36,9 +29,7 @@ body {
 
 }
 
-
-
-/*-----nav--------*/
+/*-----Nav--------*/
 .bg-bruno {
     background-color: rgb(17, 17, 17);
 }
@@ -52,7 +43,6 @@ body {
     font-size: 1em;
     text-transform: uppercase;
     font-family: sans-serif;
-
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -60,40 +50,37 @@ body {
     border-radius: 15px;
     transform: scale(1.1);
     box-shadow: 0px 0px 10px 3px white;
-
-
-
 }
 
 .logo-bru {
     width: 40px;
     height: 40px;
     justify-items: auto;
-
+    transform: scale(1.1);
 }
 
-/*
-article p {
-    background-color: aliceblue;
-}*/
-
-.estilo-bru {
-    box-shadow: 0px 0px 10px 3px black;
-
-
+.logo-bru:hover {
+    transform: translateX(15px);
+    transition: all 400ms;
 }
 
-/*tamaño imagen carru*/
+/*----Tamaño imagen carru--*/
 .tman-img {
     height: 525px;
     width: 1080px;
 
 }
 
-/*---------cards--------*/
+/*---------Cards--------*/
 .card-body {
     margin-top: 10px;
     background-color: rgb(244, 248, 248);
+
+}
+
+.card:hover {
+    transform: translateX(-15px);
+    transition: all 550ms;
 
 }
 
@@ -109,112 +96,19 @@ article p {
 
 }
 
-/*
-.navbar {
-    background-color: aqua;
-
-}
-.bg-bruno {
-    border-radius: 10px;
-    background-color: aqua;
-    width: 1000px;
-    height: 100px;
-}
-
-.navbar {
-    padding: 5px 11px;
-    font-size: 1rem;
-    text-transform: uppercase;
-}
-
-/*
-.nav-item:hover {
-    background-color: rgb(30, 31, 31);
-    transform: scaleY(1.0);
-    transition: 0.8s;
-}
-*/
-
-/*
-.navbar-expand-lg {
-    background-color: rgb(187, 184, 184);
-    border-radius: 10px;
-    
-    transform: scale(0.8);
-    box-shadow: 0px 0px 10px 3px blue;*/
-
-
-
-/*
-.carousel-inner>.carousel-item>img {
-    width: 300px;
-    height: 300px;
+.btn-bruno:hover {
+    transform: translateY(-10px);
+    transition: 600ms;
 }
 
 
-
-
-/*---card---*/
-
-/* article 
-.art-bru {
-    height: 560px;
-
-}
-
-/* Section */
+/*---- Section---- */
 h4,
 p {
-    background-color: aliceblue;
+    background-color: black;
+    color: white;
+    padding: 5px;
 }
-
-/*
-p {
-
-    background-color: white;
-    text-align: center;
-    font-size: 1.5em;
-
-}*/
-
-/* Aside Form
-aside {
-    background-color: rgb(158, 152, 152);
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    width: auto;
-    height: 100px;
-    padding: 15px;
-    border-style: solid;
-    border-color: rgb(8, 8, 8);
-    border-width: 5px;  
-
-
-.texto {
-    text-align: center;
-}
-
-#Enviar {
-    justify-content: center;
-    margin-top: 10px;
-    background-color: rgb(12, 12, 12);
-    border-style: 5px solid rgb(63, 65, 63);
-    color: whitesmoke;
-}
-
-.form__sugerencias {
-    background-color: rgb(158, 152, 152);
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    width: max-content;
-    height: max-content;
-}*/
-
-
 
 /* Footer */
 footer {
@@ -223,19 +117,16 @@ footer {
     color: azure;
     width: auto;
     height: 130px;
-    border-radius: 10px;
+
     text-align: center;
     font-size: 0.8rem;
     margin-top: 6rem;
-    transform: matrix3d(0.3);
-    box-shadow: 0px 0px 10px 3px white;
-
 
 
 }
 
+/*---- Items del footer----*/
 ul {
-
     display: flex;
     padding: 10px;
     justify-content: space-around;
@@ -244,24 +135,37 @@ ul {
 .items {
     list-style-type: none;
 
+
+
 }
 
 .logo {
     width: 50px;
     height: 50px;
     border-radius: 10px;
+
 }
 
-/* Texto Historia del club*/
-.mhist-bru {
-    background-color: whitesmoke;
-    opacity: 0.6;
-    color: black;
-    text-align: justify;
-    margin: 15px;
-    padding: 15px;
-    font-size: 1rem;
-    font-family: fantasy;
+.logo:hover {
+    transform: translatey(-10px);
+    transition: all 400ms;
+}
+
+/* Texto e imagen Historia del club*/
+.box {
+    width: 475px;
+    height: 400px;
+    border-radius: 5px;
+    background-image: url("../Multimedia/frente\ de\ fabrica.jpg");
+    padding: 1em;
+    float: left;
+    margin: 30px;
+}
+
+.special {
+    background-color: rgb(10, 10, 10);
+    padding: 10px;
+    color: #fff;
 }
 
 /* Tabla */
@@ -272,12 +176,7 @@ td {
     padding: 5px;
     background-color: whitesmoke;
     text-align: center;
-
-
 }
-
-
-
 
 /* Formulario de contacto */
 .form-bru {
@@ -285,8 +184,13 @@ td {
     opacity: 0.8;
     color: black;
     text-align: justify;
-    margin: 15px;
+    margin: 25px;
     padding: 15px;
     font-size: 1rem;
-    font-family: fantasy;
+    font-family: sans-serif;
+
+}
+
+h3 {
+    text-align: center;
 }
