@@ -25,7 +25,7 @@
     <!-- link js-->
     <script src="./Javascript/script.js"></script>
     <!--Navegador-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-bruno ">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-bruno " id="tituloPag">
         <div class="container-fluid conteiner-bru mb-0">
             <a class="navbar-brand" href="index.html"><img class="logo-bru" src="./Multimedia/escudo con laureles.jpg"
                     alt="escudo con laureles"></a>
@@ -81,7 +81,7 @@
             Deportivo La Emilia </h1>
 
 
-        <!-- cards -->
+        <!-- Cards -->
         <div class="row justify-content-around conteiner-bru ">
             <div class="card mb-2 mt-2 " style="width: 18rem;">
                 <img src="./Multimedia/interclubes tenis.jpg" class="card-img-top img_card " alt="foto tenis">
@@ -143,7 +143,7 @@
 
         </div>
     </main>
-    <!----articulos ----->
+    <!----Section y Articulos ----->
     <section class=" conteiner-bru">
         <article>
 
@@ -164,10 +164,8 @@
                 inolvidable.
             </p>
         </article>
-
-        <!-- Mapa -->
-
         <article>
+            <!-- Video -->
             <div class="container text-center mt-2 mb-2 conteiner-bru">
                 <div class="col">
                     <div class="row mb-3">
@@ -178,6 +176,7 @@
                             allowfullscreen></iframe>
 
                     </div>
+                    <!-- Mapa -->
                     <div class="row">
                         <h4>¿Como llegar a nuestro club?</h4>
                         <iframe
@@ -199,13 +198,14 @@
         <a href="./Multimedia/estatuto.pdf" download=".pdf" target="_blank"><i
                 class="fa-solid fa-download btn-bruno"></i><button class=" btn-desc">Descargar
                 Estatuto</button></a>
-        <!-- <button class="btn btn-warning" type="submit" onclick="return confEnvio()">Guardar</button>--->
     </aside>
-
+    <!-- scroll hacia arriba -->
+    <a href="#tituloPag"><i class="fa-solid fa-caret-up scr-up "></i></a>
     <!--footter-->
     <footer>
-        Seguinos en nuestras redes
+        <h6>Seguinos en nuestras redes</h6>
         <ul>
+            <!-- onclick return llama a la funcion para preguntar sobre la salida -->
             <li class="items">
                 <a href="https://www.instagram.com/clublaemilia/" target="_blank" onclick="return sali()">
                     <i class="fa-brands fa-instagram btn-bruno icon-fot"></i></a>

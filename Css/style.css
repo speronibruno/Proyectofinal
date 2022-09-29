@@ -1,9 +1,11 @@
+/*Reseteo*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/*---Contenedor Principal---*/
 .conteiner-bru,
 h4,
 p {
@@ -14,6 +16,7 @@ p {
     border-radius: 2rem;
 }
 
+/*--Imagen de fondo "Cine Teatro La Emilia"--*/
 body {
     background-image: url(../Multimedia/Cine-Teatrop\ .jpg);
     width: 100%;
@@ -30,6 +33,7 @@ body {
 }
 
 /*-----Nav--------*/
+/* Se modifica botones, letras, colores, tamaños, bordes, sombras,etc*/
 .bg-bruno {
     background-color: rgb(17, 17, 17);
 }
@@ -50,8 +54,10 @@ body {
     border-radius: 15px;
     transform: scale(1.1);
     box-shadow: 0px 0px 10px 3px white;
+
 }
 
+/*---Logo de La Emilia----*/
 .logo-bru {
     width: 40px;
     height: 40px;
@@ -65,6 +71,7 @@ body {
 }
 
 /*----Tamaño imagen carru--*/
+/* se modifica tamaño de las imagenes del carrusel*/
 .tman-img {
     height: 525px;
     width: 1080px;
@@ -72,6 +79,7 @@ body {
 }
 
 /*---------Cards--------*/
+/*Se modifico colores, mov, texto, botones, enlaces, etc*/
 .card-body {
     margin-top: 10px;
     background-color: rgb(244, 248, 248);
@@ -90,6 +98,7 @@ body {
     margin-top: 10px;
 }
 
+/*---Botones de la cards---*/
 .btn-bruno {
     background-color: black;
     color: aliceblue;
@@ -111,7 +120,7 @@ p {
     padding: 5px;
 }
 
-/* aside */
+/* Aside */
 aside {
     background-color: black;
     color: white;
@@ -129,6 +138,19 @@ aside {
     transform: translateY(10px);
     transition-delay: all 100ms;
 
+}
+
+/*Scroll */
+.scr-up {
+    margin: 5px;
+    padding: 10px;
+    font-size: 3rem;
+    color: white;
+}
+
+.scr-up:hover {
+    transform: translatey(-30px);
+    transition: all 1000ms;
 }
 
 /* Footer */
